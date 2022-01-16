@@ -1,0 +1,39 @@
+.icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.book-icon {
+    width: 1.3em;
+    height: 1.3em;
+}
+
+@media only screen and (min-width: 764px) {
+    .search-box {
+        width: 40rem;
+    }
+
+}
+
+.card {
+    width: 11rem;
+}
+
+.card-text {
+    overflow: hidden;
+}
+
+.card-title {
+    max-height: 4.5rem;
+    overflow: hidden;
+}
+
+.button-bar {
+    margin-left: .15rem;
+    margin-right: .15rem;
+}

@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+
+{% block title %}
+    CS50 Books: Search
+{% endblock %}
+
+
+{% block hero %}
+<div class="container px-4 py-5">
+    <h1 class="text-center">Search</h1>
+</div>
+
+<div class="container px-4 d-flex justify-content-center align-items-center">
+    <h3 class="text-center">Welcome to the largest library in the world!</h3>
+</div>
+
+<div class="container search-box px-4 py-5">
+    <form id="form">
+        <div class="input-group mb-3">
+          <input autocomplete="off" type="text" class="form-control" placeholder="title, author, publisher, serie or subject" aria-describedby="button-addon2" name="query" autofocus>
+          <button id="searchButton" class="btn btn-outline-primary" type="submit" id="button-addon2">Search!</button>
+        </div>
+    </form>
+</div>
+
+<div class="container d-flex px-4 py-5">
+    <div id="searchResult" class="row">
+
+    </div>
+</div>
+
+ <div class="container d-flex justify-content-center px-4 py-5">
+    <div id="buttonBar" class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    </div>
+</div>
+</div>
+
+
+{% endblock %}
+
+
+{% block script %}
+<script src="static/app.js"></script>
+{% endblock %}

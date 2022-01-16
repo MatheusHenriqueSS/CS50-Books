@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+
+{% block title %}
+ CS50 Books: Home
+{% endblock %}
+
+{% block hero %}
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-4 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img src="/static/example.jpg" class="d-block mx-lg-auto img-fluid" alt="Stack of books" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display--5 fw-bold lh-1 mb-3">A library with all the books you need.</h1>
+                <p class="lead">The world's largest library, in the palm of your hand.</p>
+                <a class="d-flex justify-content-center" href="/search"><button class="btn btn-primary btn-lg px-4">Search Now!</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container px-4 py-5" id="hanging-icons">
+        <div class="row g-4 pb-5 row-cols-1 row-cols-lg-3">
+            <div class="col d-flex align-items-start">
+               <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                     </svg>
+                </div>
+                <div>
+                    <h2>Search</h2>
+                    <p>Search over 5 millions volumes by title, author, subject or publisher.<br> Any time. Anywhere.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+               <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                     <img class="book-icon" src="static/books.png">
+                </div>
+                <div>
+                    <h2>Read</h2>
+                    <p>Acess pdf's and epubs of the book. Read previews to find the best book for you.</p>
+                </div>
+            </div>
+            <div class="col d-flex align-items-start">
+               <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                          <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                          <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                    </svg>
+                </div>
+                <div>
+                    <h2>Save</h2>
+                    <p>Save your favorite books in your bookshelf, add customized tags to better organize your collection. Create a wishlist and share it online!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+<!--trash-->
