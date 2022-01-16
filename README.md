@@ -1,5 +1,4 @@
 # CS50 Books
-#### Video Demo:https://youtu.be/uBONrZqO_eI
 #### Description
 *CS50 Books* is my final project for CS50x course.
 
